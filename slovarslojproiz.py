@@ -2,7 +2,8 @@ def summ(slov):
     print('Словарь: ', slov)
     return(sum([value for value in slov.values()]))
 
-def proiz(slov, res, k):
+def proiz(slov):
+    res = 1
     for k in slov:
         res *= slov[k]
     return(res)
